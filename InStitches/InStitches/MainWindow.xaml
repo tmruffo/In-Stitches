@@ -1,0 +1,801 @@
+﻿<Window x:Class="InStitches.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InStitches" Height="533" Width="1119" Icon="Images/yarn.png">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="483" Margin="10,10,0,0" VerticalAlignment="Top" Width="1091">
+            <TabItem Header="Inventory">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl HorizontalAlignment="Left" Height="451" VerticalAlignment="Top" Width="1081">
+                        <TabItem Header="Knitting">
+                            <Grid Background="#FFE5E5E5">
+                                <Border BorderBrush="Black" BorderThickness="1">
+                                    <Grid Name="knittingInventoryGrid" HorizontalAlignment="Left" Height="419" Margin="-1" VerticalAlignment="Top" Width="1071">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="48*"/>
+                                            <ColumnDefinition Width="34*"/>
+                                            <ColumnDefinition Width="42*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="42*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="42*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="42*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                            <ColumnDefinition Width="42*"/>
+                                            <ColumnDefinition Width="41*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Rectangle Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="24" Stroke="#FF0B8782" Fill="#FF7DEABD" />
+                                        <Rectangle Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Stroke="#FF0B8782" Fill="#FF7DEABD" />
+                                        <Rectangle Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="1" Stroke="#FF107F83" Fill="#FF4EDEE4" />
+                                        <Rectangle Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="1" Stroke="#FF107F83" Fill="#FF4EDEE4" />
+                                        <Rectangle Grid.Column="2" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="24" Stroke="#FF107F83" Fill="#FF7FDCE0" />
+                                        <Rectangle Grid.Column="0" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="1" Stroke="#FF541099" Fill="#FFA061E0" />
+                                        <Rectangle Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="1" Stroke="#FF541099" Fill="#FFA061E0" />
+                                        <Rectangle Grid.Column="2" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="24" Stroke="#FF541099" Fill="#FFB283E2" />
+                                        <Rectangle Grid.Column="0" Grid.Row="6" Grid.RowSpan="10" Grid.ColumnSpan="1" Stroke="#FFA21295" Fill="#FFE44ED6" />
+                                        <Rectangle Grid.Column="1" Grid.Row="6" Grid.RowSpan="10" Grid.ColumnSpan="1" Stroke="#FFA21295" Fill="#FFE44ED6" />
+                                        <Rectangle Grid.Column="2" Grid.Row="6" Grid.RowSpan="10" Grid.ColumnSpan="24" Stroke="#FFA21295" Fill="#FFEA8AE1" />
+                                        <Label Content="US Size" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                                        <Label Content="00" Grid.Row="0" Grid.Column="2"/>
+                                        <Label Content="0" Grid.Row="0" Grid.Column="3"/>
+                                        <Label Content="1" Grid.Row="0" Grid.Column="4"/>
+                                        <Label Content="1.5" Grid.Row="0" Grid.Column="5"/>
+                                        <Label Content="2" Grid.Row="0" Grid.Column="6"/>
+                                        <Label Content="2.5" Grid.Row="0" Grid.Column="7"/>
+                                        <Label Content="3" Grid.Row="0" Grid.Column="8"/>
+                                        <Label Content="4" Grid.Row="0" Grid.Column="9"/>
+                                        <Label Content="5" Grid.Row="0" Grid.Column="10"/>
+                                        <Label Content="6" Grid.Row="0" Grid.Column="11"/>
+                                        <Label Content="7" Grid.Row="0" Grid.Column="12"/>
+                                        <Label Content="8" Grid.Row="0" Grid.Column="13"/>
+                                        <Label Content="9" Grid.Row="0" Grid.Column="14"/>
+                                        <Label Content="10" Grid.Row="0" Grid.Column="15"/>
+                                        <Label Content="10.5" Grid.Row="0" Grid.Column="16"/>
+                                        <Label Content="11" Grid.Row="0" Grid.Column="19"/>
+                                        <Label Content="13" Grid.Row="0" Grid.Column="20"/>
+                                        <Label Content="15" Grid.Row="0" Grid.Column="21"/>
+                                        <Label Content="17" Grid.Row="0" Grid.Column="22"/>
+                                        <Label Content="19" Grid.Row="0" Grid.Column="23"/>
+                                        <Label Content="35" Grid.Row="0" Grid.Column="24"/>
+                                        <Label Content="50" Grid.Row="0" Grid.Column="25"/>
+                                        <Label Content="Metric" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                                        <Label Content="1.75" Grid.Row="1" Grid.Column="2"/>
+                                        <Label Content="2" Grid.Row="1" Grid.Column="3"/>
+                                        <Label Content="2.25" Grid.Row="1" Grid.Column="4"/>
+                                        <Label Content="2.5" Grid.Row="1" Grid.Column="5"/>
+                                        <Label Content="2.75" Grid.Row="1" Grid.Column="6"/>
+                                        <Label Content="3" Grid.Row="1" Grid.Column="7"/>
+                                        <Label Content="3.25" Grid.Row="1" Grid.Column="8"/>
+                                        <Label Content="3.5" Grid.Row="1" Grid.Column="9"/>
+                                        <Label Content="3.75" Grid.Row="1" Grid.Column="10"/>
+                                        <Label Content="4" Grid.Row="1" Grid.Column="11"/>
+                                        <Label Content="4.5" Grid.Row="1" Grid.Column="12"/>
+                                        <Label Content="5" Grid.Row="1" Grid.Column="13"/>
+                                        <Label Content="5.5" Grid.Row="1" Grid.Column="14"/>
+                                        <Label Content="6" Grid.Row="1" Grid.Column="15"/>
+                                        <Label Content="6.5" Grid.Row="1" Grid.Column="16"/>
+                                        <Label Content="7" Grid.Row="1" Grid.Column="17"/>
+                                        <Label Content="7.5" Grid.Row="1" Grid.Column="18"/>
+                                        <Label Content="8" Grid.Row="1" Grid.Column="19"/>
+                                        <Label Content="9" Grid.Row="1" Grid.Column="20"/>
+                                        <Label Content="10" Grid.Row="1" Grid.Column="21"/>
+                                        <Label Content="12.75" Grid.Row="1" Grid.Column="22"/>
+                                        <Label Content="15" Grid.Row="1" Grid.Column="23"/>
+                                        <Label Content="19" Grid.Row="1" Grid.Column="24"/>
+                                        <Label Content="25" Grid.Row="1" Grid.Column="25"/>
+                                        <Label Content="10&quot;" Grid.Row="2" Grid.Column="1"/>
+                                        <Button Name="btn10_00" Grid.Row="2" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_0" Grid.Row="2" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_1" Grid.Row="2" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_1_5" Grid.Row="2" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_2" Grid.Row="2" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_2_5" Grid.Row="2" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_3" Grid.Row="2" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_4" Grid.Row="2" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_5" Grid.Row="2" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_6" Grid.Row="2" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_7" Grid.Row="2" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_8" Grid.Row="2" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_9" Grid.Row="2" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_10" Grid.Row="2" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_10_5" Grid.Row="2" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_7met" Grid.Row="2" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_7_5met" Grid.Row="2" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_11" Grid.Row="2" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_13" Grid.Row="2" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_15" Grid.Row="2" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_17" Grid.Row="2" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_19" Grid.Row="2" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_35" Grid.Row="2" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn10_50" Grid.Row="2" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="14&quot;" Grid.Row="3" Grid.Column="1"/>
+                                        <Button Name="btn14_00" Grid.Row="3" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_0" Grid.Row="3" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_1" Grid.Row="3" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_1_5" Grid.Row="3" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_2" Grid.Row="3" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_2_5" Grid.Row="3" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_3" Grid.Row="3" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_4" Grid.Row="3" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_5" Grid.Row="3" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_6" Grid.Row="3" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_7" Grid.Row="3" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_8" Grid.Row="3" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_9" Grid.Row="3" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_10" Grid.Row="3" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_10_5" Grid.Row="3" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_7met" Grid.Row="3" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_7_5met" Grid.Row="3" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_11" Grid.Row="3" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_13" Grid.Row="3" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_15" Grid.Row="3" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_17" Grid.Row="3" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_19" Grid.Row="3" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_35" Grid.Row="3" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn14_50" Grid.Row="3" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="dp" Grid.Row="4" Grid.Column="0" Grid.RowSpan="2"/>
+                                        <Label Content="sock" Grid.Row="4" Grid.Column="1"/>
+                                        <Button Name="btnsock_00" Grid.Row="4" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_0" Grid.Row="4" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_1" Grid.Row="4" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_1_5" Grid.Row="4" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_2" Grid.Row="4" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_2_5" Grid.Row="4" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_3" Grid.Row="4" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_4" Grid.Row="4" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_5" Grid.Row="4" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_6" Grid.Row="4" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_7" Grid.Row="4" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_8" Grid.Row="4" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_9" Grid.Row="4" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_10" Grid.Row="4" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_10_5" Grid.Row="4" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_7met" Grid.Row="4" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_7_5met" Grid.Row="4" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_11" Grid.Row="4" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_13" Grid.Row="4" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_15" Grid.Row="4" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_17" Grid.Row="4" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_19" Grid.Row="4" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_35" Grid.Row="4" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnsock_50" Grid.Row="4" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="std" Grid.Row="5" Grid.Column="1"/>
+                                        <Button Name="btnstd_00" Grid.Row="5" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_0" Grid.Row="5" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_1" Grid.Row="5" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_1_5" Grid.Row="5" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_2" Grid.Row="5" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_2_5" Grid.Row="5" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_3" Grid.Row="5" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_4" Grid.Row="5" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_5" Grid.Row="5" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_6" Grid.Row="5" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_7" Grid.Row="5" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_8" Grid.Row="5" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_9" Grid.Row="5" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_10" Grid.Row="5" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_10_5" Grid.Row="5" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_7met" Grid.Row="5" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_7_5met" Grid.Row="5" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_11" Grid.Row="5" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_13" Grid.Row="5" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_15" Grid.Row="5" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_17" Grid.Row="5" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_19" Grid.Row="5" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_35" Grid.Row="5" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btnstd_50" Grid.Row="5" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="circular" Grid.Row="6" Grid.Column="0" Grid.RowSpan="10"/>
+                                        <Label Content="9&quot;" Grid.Row="6" Grid.Column="1"/>
+                                        <Button Name="btn9_00" Grid.Row="6" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_0" Grid.Row="6" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_1" Grid.Row="6" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_1_5" Grid.Row="6" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_2" Grid.Row="6" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_2_5" Grid.Row="6" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_3" Grid.Row="6" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_4" Grid.Row="6" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_5" Grid.Row="6" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_6" Grid.Row="6" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_7" Grid.Row="6" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_8" Grid.Row="6" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_9" Grid.Row="6" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_10" Grid.Row="6" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_10_5" Grid.Row="6" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_7met" Grid.Row="6" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_7_5met" Grid.Row="6" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_11" Grid.Row="6" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_13" Grid.Row="6" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_15" Grid.Row="6" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_17" Grid.Row="6" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_19" Grid.Row="6" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_35" Grid.Row="6" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn9_50" Grid.Row="6" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="12&quot;" Grid.Row="7" Grid.Column="1"/>
+                                        <Button Name="btn12_00" Grid.Row="7" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_0" Grid.Row="7" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_1" Grid.Row="7" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_1_5" Grid.Row="7" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_2" Grid.Row="7" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_2_5" Grid.Row="7" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_3" Grid.Row="7" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_4" Grid.Row="7" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_5" Grid.Row="7" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_6" Grid.Row="7" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_7" Grid.Row="7" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_8" Grid.Row="7" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_9" Grid.Row="7" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_10" Grid.Row="7" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_10_5" Grid.Row="7" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_7met" Grid.Row="7" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_7_5met" Grid.Row="7" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_11" Grid.Row="7" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_13" Grid.Row="7" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_15" Grid.Row="7" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_17" Grid.Row="7" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_19" Grid.Row="7" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_35" Grid.Row="7" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn12_50" Grid.Row="7" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="16&quot;" Grid.Row="8" Grid.Column="1"/>
+                                        <Button Name="btn16_00" Grid.Row="8" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_0" Grid.Row="8" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_1" Grid.Row="8" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_1_5" Grid.Row="8" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_2" Grid.Row="8" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_2_5" Grid.Row="8" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_3" Grid.Row="8" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_4" Grid.Row="8" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_5" Grid.Row="8" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_6" Grid.Row="8" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_7" Grid.Row="8" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_8" Grid.Row="8" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_9" Grid.Row="8" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_10" Grid.Row="8" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_10_5" Grid.Row="8" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_7met" Grid.Row="8" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_7_5met" Grid.Row="8" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_11" Grid.Row="8" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_13" Grid.Row="8" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_15" Grid.Row="8" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_17" Grid.Row="8" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_19" Grid.Row="8" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_35" Grid.Row="8" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn16_50" Grid.Row="8" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="20&quot;" Grid.Row="9" Grid.Column="1"/>
+                                        <Button Name="btn20_00" Grid.Row="9" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_0" Grid.Row="9" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_1" Grid.Row="9" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_1_5" Grid.Row="9" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_2" Grid.Row="9" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_2_5" Grid.Row="9" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_3" Grid.Row="9" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_4" Grid.Row="9" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_5" Grid.Row="9" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_6" Grid.Row="9" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_7" Grid.Row="9" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_8" Grid.Row="9" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_9" Grid.Row="9" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_10" Grid.Row="9" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_10_5" Grid.Row="9" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_7met" Grid.Row="9" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_7_5met" Grid.Row="9" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_11" Grid.Row="9" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_13" Grid.Row="9" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_15" Grid.Row="9" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_17" Grid.Row="9" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_19" Grid.Row="9" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_35" Grid.Row="9" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn20_50" Grid.Row="9" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="24&quot;" Grid.Row="10" Grid.Column="1"/>
+                                        <Button Name="btn24_00" Grid.Row="10" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_0" Grid.Row="10" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_1" Grid.Row="10" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_1_5" Grid.Row="10" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_2" Grid.Row="10" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_2_5" Grid.Row="10" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_3" Grid.Row="10" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_4" Grid.Row="10" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_5" Grid.Row="10" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_6" Grid.Row="10" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_7" Grid.Row="10" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_8" Grid.Row="10" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_9" Grid.Row="10" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_10" Grid.Row="10" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_10_5" Grid.Row="10" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_7met" Grid.Row="10" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_7_5met" Grid.Row="10" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_11" Grid.Row="10" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_13" Grid.Row="10" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_15" Grid.Row="10" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_17" Grid.Row="10" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_19" Grid.Row="10" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_35" Grid.Row="10" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn24_50" Grid.Row="10" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="29&quot;" Grid.Row="11" Grid.Column="1"/>
+                                        <Button Name="btn29_00" Grid.Row="11" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_0" Grid.Row="11" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_1" Grid.Row="11" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_1_5" Grid.Row="11" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_2" Grid.Row="11" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_2_5" Grid.Row="11" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_3" Grid.Row="11" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_4" Grid.Row="11" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_5" Grid.Row="11" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_6" Grid.Row="11" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_7" Grid.Row="11" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_8" Grid.Row="11" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_9" Grid.Row="11" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_10" Grid.Row="11" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_10_5" Grid.Row="11" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_7met" Grid.Row="11" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_7_5met" Grid.Row="11" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_11" Grid.Row="11" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_13" Grid.Row="11" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_15" Grid.Row="11" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_17" Grid.Row="11" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_19" Grid.Row="11" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_35" Grid.Row="11" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn29_50" Grid.Row="11" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="32&quot;" Grid.Row="12" Grid.Column="1"/>
+                                        <Button Name="btn32_00" Grid.Row="12" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_0" Grid.Row="12" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_1" Grid.Row="12" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_1_5" Grid.Row="12" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_2" Grid.Row="12" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_2_5" Grid.Row="12" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_3" Grid.Row="12" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_4" Grid.Row="12" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_5" Grid.Row="12" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_6" Grid.Row="12" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_7" Grid.Row="12" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_8" Grid.Row="12" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_9" Grid.Row="12" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_10" Grid.Row="12" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_10_5" Grid.Row="12" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_7met" Grid.Row="12" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_7_5met" Grid.Row="12" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_11" Grid.Row="12" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_13" Grid.Row="12" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_15" Grid.Row="12" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_17" Grid.Row="12" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_19" Grid.Row="12" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_35" Grid.Row="12" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn32_50" Grid.Row="12" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="40&quot;" Grid.Row="13" Grid.Column="1"/>
+                                        <Button Name="btn40_00" Grid.Row="13" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_0" Grid.Row="13" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_1" Grid.Row="13" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_1_5" Grid.Row="13" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_2" Grid.Row="13" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_2_5" Grid.Row="13" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_3" Grid.Row="13" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_4" Grid.Row="13" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_5" Grid.Row="13" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_6" Grid.Row="13" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_7" Grid.Row="13" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_8" Grid.Row="13" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_9" Grid.Row="13" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_10" Grid.Row="13" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_10_5" Grid.Row="13" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_7met" Grid.Row="13" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_7_5met" Grid.Row="13" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_11" Grid.Row="13" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_13" Grid.Row="13" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_15" Grid.Row="13" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_17" Grid.Row="13" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_19" Grid.Row="13" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_35" Grid.Row="13" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn40_50" Grid.Row="13" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="47&quot;" Grid.Row="14" Grid.Column="1"/>
+                                        <Button Name="btn47_00" Grid.Row="14" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_0" Grid.Row="14" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_1" Grid.Row="14" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_1_5" Grid.Row="14" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_2" Grid.Row="14" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_2_5" Grid.Row="14" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_3" Grid.Row="14" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_4" Grid.Row="14" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_5" Grid.Row="14" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_6" Grid.Row="14" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_7" Grid.Row="14" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_8" Grid.Row="14" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_9" Grid.Row="14" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_10" Grid.Row="14" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_10_5" Grid.Row="14" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_7met" Grid.Row="14" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_7_5met" Grid.Row="14" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_11" Grid.Row="14" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_13" Grid.Row="14" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_15" Grid.Row="14" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_17" Grid.Row="14" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_19" Grid.Row="14" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_35" Grid.Row="14" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn47_50" Grid.Row="14" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Label Content="60&quot;" Grid.Row="15" Grid.Column="1"/>
+                                        <Button Name="btn60_00" Grid.Row="15" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_0" Grid.Row="15" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_1" Grid.Row="15" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_1_5" Grid.Row="15" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_2" Grid.Row="15" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_2_5" Grid.Row="15" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_3" Grid.Row="15" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_4" Grid.Row="15" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_5" Grid.Row="15" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_6" Grid.Row="15" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_7" Grid.Row="15" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_8" Grid.Row="15" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_9" Grid.Row="15" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_10" Grid.Row="15" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_10_5" Grid.Row="15" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_7met" Grid.Row="15" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_7_5met" Grid.Row="15" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_11" Grid.Row="15" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_13" Grid.Row="15" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_15" Grid.Row="15" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_17" Grid.Row="15" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_19" Grid.Row="15" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_35" Grid.Row="15" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                        <Button Name="btn60_50" Grid.Row="15" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Crochet">
+                            <Grid Background="#FFE5E5E5">
+                                <Label Content="Standard Hooks" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                                <Grid HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="1071" Margin="0,37,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Rectangle Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="24" Stroke="#FF0B8782" Fill="#FF7DEABD" />
+                                    <Rectangle Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Stroke="#FF0B8782" Fill="#FF7DEABD" />
+                                    <Rectangle Grid.Column="0" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" Stroke="#FF107F83" Fill="#FF4EDEE4" />
+                                    <Rectangle Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" Stroke="#FF107F83" Fill="#FF4EDEE4" />
+                                    <Rectangle Grid.Column="2" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="24" Stroke="#FF107F83" Fill="#FF7FDCE0" />
+                                    <Label Content="US Size" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                                    <Label Content="B" Grid.Row="0" Grid.Column="4"/>
+                                    <Label Content="C" Grid.Row="0" Grid.Column="6"/>
+                                    <Label Content="D" Grid.Row="0" Grid.Column="8"/>
+                                    <Label Content="E" Grid.Row="0" Grid.Column="9"/>
+                                    <Label Content="F" Grid.Row="0" Grid.Column="10"/>
+                                    <Label Content="G" Grid.Row="0" Grid.Column="11"/>
+                                    <Label Content="H" Grid.Row="0" Grid.Column="13"/>
+                                    <Label Content="I" Grid.Row="0" Grid.Column="14"/>
+                                    <Label Content="J" Grid.Row="0" Grid.Column="15"/>
+                                    <Label Content="K" Grid.Row="0" Grid.Column="16"/>
+                                    <Label Content="L" Grid.Row="0" Grid.Column="19"/>
+                                    <Label Content="M/N" Grid.Row="0" Grid.Column="20"/>
+                                    <Label Content="N/P" Grid.Row="0" Grid.Column="21"/>
+                                    <Label Content="P/Q" Grid.Row="0" Grid.Column="23"/>
+                                    <Label Content="S" Grid.Row="0" Grid.Column="24"/>
+                                    <Label Content="Metric" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                                    <Label Content="1.75" Grid.Row="1" Grid.Column="2"/>
+                                    <Label Content="2" Grid.Row="1" Grid.Column="3"/>
+                                    <Label Content="2.25" Grid.Row="1" Grid.Column="4"/>
+                                    <Label Content="2.5" Grid.Row="1" Grid.Column="5"/>
+                                    <Label Content="2.75" Grid.Row="1" Grid.Column="6"/>
+                                    <Label Content="3" Grid.Row="1" Grid.Column="7"/>
+                                    <Label Content="3.25" Grid.Row="1" Grid.Column="8"/>
+                                    <Label Content="3.5" Grid.Row="1" Grid.Column="9"/>
+                                    <Label Content="3.75" Grid.Row="1" Grid.Column="10"/>
+                                    <Label Content="4" Grid.Row="1" Grid.Column="11"/>
+                                    <Label Content="4.5" Grid.Row="1" Grid.Column="12"/>
+                                    <Label Content="5" Grid.Row="1" Grid.Column="13"/>
+                                    <Label Content="5.5" Grid.Row="1" Grid.Column="14"/>
+                                    <Label Content="6" Grid.Row="1" Grid.Column="15"/>
+                                    <Label Content="6.5" Grid.Row="1" Grid.Column="16"/>
+                                    <Label Content="7" Grid.Row="1" Grid.Column="17"/>
+                                    <Label Content="7.5" Grid.Row="1" Grid.Column="18"/>
+                                    <Label Content="8" Grid.Row="1" Grid.Column="19"/>
+                                    <Label Content="9" Grid.Row="1" Grid.Column="20"/>
+                                    <Label Content="10" Grid.Row="1" Grid.Column="21"/>
+                                    <Label Content="12.75" Grid.Row="1" Grid.Column="22"/>
+                                    <Label Content="15" Grid.Row="1" Grid.Column="23"/>
+                                    <Label Content="19" Grid.Row="1" Grid.Column="24"/>
+                                    <Label Content="25" Grid.Row="1" Grid.Column="25"/>
+                                    <Label Content="hook" Grid.Row="2" Grid.Column="1"/>
+                                    <Button Name="btnStdHook_1_75" Grid.Row="2" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_2" Grid.Row="2" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_2_25" Grid.Row="2" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_2_5" Grid.Row="2" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_2_75" Grid.Row="2" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_3" Grid.Row="2" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_3_25" Grid.Row="2" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_3_5" Grid.Row="2" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_3_75" Grid.Row="2" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_4" Grid.Row="2" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_4_5" Grid.Row="2" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_5" Grid.Row="2" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_5_5" Grid.Row="2" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_6" Grid.Row="2" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_6_5" Grid.Row="2" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_7" Grid.Row="2" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_7_5" Grid.Row="2" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_8" Grid.Row="2" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_9" Grid.Row="2" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_10" Grid.Row="2" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_12_75" Grid.Row="2" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_15" Grid.Row="2" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_19" Grid.Row="2" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button Name="btnStdHook_25" Grid.Row="2" Grid.Column="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                </Grid>
+                                <Label Content="Steel Hooks" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top"/>
+                                <Grid HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="1071" Margin="0,178,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Rectangle Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="24" Stroke="#FF0B8782" Fill="#FF7DEABD" />
+                                    <Rectangle Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Stroke="#FF0B8782" Fill="#FF7DEABD" />
+                                    <Rectangle Grid.Column="0" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" Stroke="#FF107F83" Fill="#FF4EDEE4" />
+                                    <Rectangle Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="1" Stroke="#FF107F83" Fill="#FF4EDEE4" />
+                                    <Rectangle Grid.Column="2" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="24" Stroke="#FF107F83" Fill="#FF7FDCE0" />
+                                    <Label Content="US Size" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                                    <Label Content="14" Grid.Row="0" Grid.Column="4"/>
+                                    <Label Content="13" Grid.Row="0" Grid.Column="5"/>
+                                    <Label Content="12" Grid.Row="0" Grid.Column="7"/>
+                                    <Label Content="11" Grid.Row="0" Grid.Column="10"/>
+                                    <Label Content="10" Grid.Row="0" Grid.Column="13"/>
+                                    <Label Content="9" Grid.Row="0" Grid.Column="14"/>
+                                    <Label Content="8" Grid.Row="0" Grid.Column="15"/>
+                                    <Label Content="7" Grid.Row="0" Grid.Column="16"/>
+                                    <Label Content="6" Grid.Row="0" Grid.Column="17"/>
+                                    <Label Content="5" Grid.Row="0" Grid.Column="18"/>
+                                    <Label Content="4" Grid.Row="0" Grid.Column="19"/>
+                                    <Label Content="3" Grid.Row="0" Grid.Column="20"/>
+                                    <Label Content="2" Grid.Row="0" Grid.Column="21"/>
+                                    <Label Content="1" Grid.Row="0" Grid.Column="22"/>
+                                    <Label Content="0" Grid.Row="0" Grid.Column="23"/>
+                                    <Label Content="00" Grid.Row="0" Grid.Column="24"/>
+                                    <Label Content="Metric" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                                    <Label Content="0.6" Grid.Row="1" Grid.Column="2"/>
+                                    <Label Content="0.7" Grid.Row="1" Grid.Column="3"/>
+                                    <Label Content="0.75" Grid.Row="1" Grid.Column="4"/>
+                                    <Label Content="0.85" Grid.Row="1" Grid.Column="5"/>
+                                    <Label Content="0.9" Grid.Row="1" Grid.Column="6"/>
+                                    <Label Content="1" Grid.Row="1" Grid.Column="7"/>
+                                    <Label Content="1.05" Grid.Row="1" Grid.Column="8"/>
+                                    <Label Content="1.1" Grid.Row="1" Grid.Column="9"/>
+                                    <Label Content="1.1" Grid.Row="1" Grid.Column="10"/>
+                                    <Label Content="1.15" Grid.Row="1" Grid.Column="11"/>
+                                    <Label Content="1.25" Grid.Row="1" Grid.Column="12"/>
+                                    <Label Content="1.3" Grid.Row="1" Grid.Column="13"/>
+                                    <Label Content="1.4" Grid.Row="1" Grid.Column="14"/>
+                                    <Label Content="1.5" Grid.Row="1" Grid.Column="15"/>
+                                    <Label Content="1.65" Grid.Row="1" Grid.Column="16"/>
+                                    <Label Content="1.8" Grid.Row="1" Grid.Column="17"/>
+                                    <Label Content="1.9" Grid.Row="1" Grid.Column="18"/>
+                                    <Label Content="2" Grid.Row="1" Grid.Column="19"/>
+                                    <Label Content="2.1" Grid.Row="1" Grid.Column="20"/>
+                                    <Label Content="2.25" Grid.Row="1" Grid.Column="21"/>
+                                    <Label Content="2.75" Grid.Row="1" Grid.Column="22"/>
+                                    <Label Content="3.25" Grid.Row="1" Grid.Column="23"/>
+                                    <Label Content="3.5" Grid.Row="1" Grid.Column="24"/>
+                                    <Label Content="hook" Grid.Row="2" Grid.Column="1"/>
+                                    <Button x:Name="btnSteelHook_0_6" Grid.Row="2" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_0_7" Grid.Row="2" Grid.Column="3" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_0_75" Grid.Row="2" Grid.Column="4" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_0_85" Grid.Row="2" Grid.Column="5" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_0_9" Grid.Row="2" Grid.Column="6" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1" Grid.Row="2" Grid.Column="7" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_05" Grid.Row="2" Grid.Column="8" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_1" Grid.Row="2" Grid.Column="9" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_1_2" Grid.Row="2" Grid.Column="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_15" Grid.Row="2" Grid.Column="11" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_25" Grid.Row="2" Grid.Column="12" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_3" Grid.Row="2" Grid.Column="13" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_4" Grid.Row="2" Grid.Column="14" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_5" Grid.Row="2" Grid.Column="15" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_65" Grid.Row="2" Grid.Column="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_8" Grid.Row="2" Grid.Column="17" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_1_9" Grid.Row="2" Grid.Column="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_2" Grid.Row="2" Grid.Column="19" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_2_1" Grid.Row="2" Grid.Column="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_2_25" Grid.Row="2" Grid.Column="21" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_2_75" Grid.Row="2" Grid.Column="22" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_3_25" Grid.Row="2" Grid.Column="23" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                    <Button x:Name="btnSteelHook_3_5" Grid.Row="2" Grid.Column="24" Background="{x:Null}" BorderBrush="{x:Null}" Click="InventoryBtn_Click" Focusable="False"/>
+                                </Grid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Gauge">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl HorizontalAlignment="Left" Height="451" VerticalAlignment="Top" Width="1081">
+                        <TabItem Header="Knitting">
+                            <Grid Background="#FFE5E5E5" Margin="0,1,0,-1">
+                                <Label Content="US 1" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="49,28,0,0" VerticalAlignment="Top" Source="Images/US1.png" Stretch="None"/>
+                                <Label Content="US 2" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,1.654"/>
+                                <Image HorizontalAlignment="Left" Margin="49,78,0,0" VerticalAlignment="Top" Source="Images/US2.png" Stretch="None" RenderTransformOrigin="24.2,9.9"/>
+                                <Label Content="US 3" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,-0.462"/>
+                                <Image HorizontalAlignment="Left" Margin="49,133,0,0" VerticalAlignment="Top" Source="Images/US3.png" Stretch="None" RenderTransformOrigin="-26.25,-7.417"/>
+                                <Label Content="US 4" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,-0.154"/>
+                                <Image HorizontalAlignment="Left" Margin="49,196,0,0" VerticalAlignment="Top" Source="Images/US4.png" Stretch="None" RenderTransformOrigin="-25.462,-7"/>
+                                <Label Content="US 5" HorizontalAlignment="Left" Margin="10,252,0,0" VerticalAlignment="Top" RenderTransformOrigin="-15.382,9.423"/>
+                                <Image HorizontalAlignment="Left" Margin="49,256,0,0" VerticalAlignment="Top" Source="Images/US5.png" Stretch="None"/>
+                                <Label Content="US 6" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="49,325,0,0" VerticalAlignment="Top" Source="Images/US6.png" Stretch="None" RenderTransformOrigin="0.6,-0.267"/>
+                                <Label Content="US 7" HorizontalAlignment="Left" Margin="258,28,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="297,28,0,0" VerticalAlignment="Top" Source="Images/US7.png" Stretch="None" RenderTransformOrigin="3.765,0.765"/>
+                                <Label Content="US 8" HorizontalAlignment="Left" Margin="258,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,1.077"/>
+                                <Image HorizontalAlignment="Left" Margin="297,78,0,0" VerticalAlignment="Top" Source="Images/US8.png" Stretch="None"/>
+                                <Label Content="US 9" HorizontalAlignment="Left" Margin="258,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.559,2.115"/>
+                                <Image HorizontalAlignment="Left" Margin="297,133,0,0" VerticalAlignment="Top" Source="Images/US9.png" Stretch="None"/>
+                                <Label Content="US 10" HorizontalAlignment="Left" Margin="251,200,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="297,196,0,0" VerticalAlignment="Top" Source="Images/US10.png" Stretch="None"/>
+                                <Label Content="US 10.5" HorizontalAlignment="Left" Margin="242,262,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="297,256,0,0" VerticalAlignment="Top" Source="Images/US105.png" Stretch="None"/>
+                                <Label Content="US 11" HorizontalAlignment="Left" Margin="251,337,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="297,325,0,0" VerticalAlignment="Top" Source="Images/US11.png" Stretch="None" RenderTransformOrigin="0.633,-0.6"/>
+                                <Label Content="US 13" HorizontalAlignment="Left" Margin="470,44,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="516,28,0,0" VerticalAlignment="Top" Source="Images/US13.png" Stretch="None"/>
+                                <Label Content="US 15" HorizontalAlignment="Left" Margin="470,152,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="516,133,0,0" VerticalAlignment="Top" Source="Images/US15.png" Stretch="None"/>
+                                <Label Content="US 17" HorizontalAlignment="Left" Margin="470,282,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="516,252,0,0" VerticalAlignment="Top" Source="Images/US17.png" Stretch="None"/>
+                                <Label Content="US 19" HorizontalAlignment="Left" Margin="699,60,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="745,28,0,0" VerticalAlignment="Top" Source="Images/US19.png" Stretch="None"/>
+                                <Label Content="US 35" HorizontalAlignment="Left" Margin="704,165,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="745,133,0,0" VerticalAlignment="Top" Source="Images/US35.png" Stretch="None"/>
+                                <Label Content="US 50" HorizontalAlignment="Left" Margin="699,284,0,0" VerticalAlignment="Top"/>
+                                <Image HorizontalAlignment="Left" Margin="745,252,0,0" VerticalAlignment="Top" Source="Images/US50.png" Stretch="None"/>
+                                <TextBox HorizontalAlignment="Left" Height="89" Margin="849,28,0,0" TextWrapping="Wrap" Text="Hold your needle up to the screen. Find the square with the closest size to the needle's width without being too large. That is the gauge of your needle!" VerticalAlignment="Top" Width="201" Background="{x:Null}"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Crochet">
+                            <Grid Background="#FFE5E5E5" Margin="0,1,0,-1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="1046*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="1.75 mm" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                                <Image HorizontalAlignment="Left" Margin="46,28,0,0" VerticalAlignment="Top" Source="Images/175.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="2 mm" HorizontalAlignment="Left" Margin="1,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,1.654" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="46,69,0,0" VerticalAlignment="Top" Source="Images/2.png" Stretch="None" RenderTransformOrigin="24.2,9.9" Grid.Column="1"/>
+                                <Label Content="2.25 mm" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,-0.462" Grid.ColumnSpan="2"/>
+                                <Image HorizontalAlignment="Left" Margin="46,109,0,0" VerticalAlignment="Top" Source="Images/225.png" Stretch="None" RenderTransformOrigin="-26.25,-7.417" Grid.Column="1"/>
+                                <Label Content="2.5 mm" HorizontalAlignment="Left" Margin="16,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,-0.154" Grid.ColumnSpan="2"/>
+                                <Image HorizontalAlignment="Left" Margin="46,158,0,0" VerticalAlignment="Top" Source="Images/2.5.png" Stretch="None" RenderTransformOrigin="-25.462,-7" Grid.Column="1"/>
+                                <Label Content="2.75 mm" HorizontalAlignment="Left" Margin="10,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="-15.382,9.423" Grid.ColumnSpan="2"/>
+                                <Image HorizontalAlignment="Left" Margin="46,212,0,0" VerticalAlignment="Top" Source="Images/2.75.png" Stretch="None" RenderTransformOrigin="2.8,-3.3" Grid.Column="1"/>
+                                <Label Content="3 mm" HorizontalAlignment="Left" Margin="1,260,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="46,267,0,0" VerticalAlignment="Top" Source="Images/3.png" Stretch="None" RenderTransformOrigin="0.6,-0.267" Grid.Column="1"/>
+                                <Label Content="3.25 mm" HorizontalAlignment="Left" Margin="10,319,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                                <Image HorizontalAlignment="Left" Margin="46,325,0,0" VerticalAlignment="Top" Source="Images/3.25.png" Stretch="None" RenderTransformOrigin="3.765,0.765" Grid.Column="1"/>
+                                <Label Content="3.5 mm" HorizontalAlignment="Left" Margin="16,372,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,1.077" Grid.ColumnSpan="2"/>
+                                <Image HorizontalAlignment="Left" Margin="46,377,0,0" VerticalAlignment="Top" Source="Images/3.5.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="3.75 mm" HorizontalAlignment="Left" Margin="211,24,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.559,2.115" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,28,0,0" VerticalAlignment="Top" Source="Images/3.75.png" Stretch="None" RenderTransformOrigin="0.214,-4.857" Grid.Column="1"/>
+                                <Label Content="4 mm" HorizontalAlignment="Left" Margin="227,66,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,69,0,0" VerticalAlignment="Top" Source="Images/4.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="4.5 mm" HorizontalAlignment="Left" Margin="217,108,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,109,0,0" VerticalAlignment="Top" Source="Images/4.5.png" Stretch="None" RenderTransformOrigin="0.529,-4.118" Grid.Column="1"/>
+                                <Label Content="5 mm" HorizontalAlignment="Left" Margin="227,157,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,158,0,0" VerticalAlignment="Top" Source="Images/5.png" Stretch="None" RenderTransformOrigin="0.633,-0.6" Grid.Column="1"/>
+                                <Label Content="5.5 mm" HorizontalAlignment="Left" Margin="217,206,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,212,0,0" VerticalAlignment="Top" Source="Images/5.5.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="6 mm" HorizontalAlignment="Left" Margin="227,271,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,267,0,0" VerticalAlignment="Top" Source="Images/6.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="6.5 mm" HorizontalAlignment="Left" Margin="217,331,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,325,0,0" VerticalAlignment="Top" Source="Images/6.5.png" Stretch="None" RenderTransformOrigin="-1.125,-1.5" Grid.Column="1"/>
+                                <Label Content="7 mm" HorizontalAlignment="Left" Margin="227,385,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="272,377,0,0" VerticalAlignment="Top" Source="Images/7.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="7.5 mm" HorizontalAlignment="Left" Margin="436,38,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="491,28,0,0" VerticalAlignment="Top" Source="Images/7.5.png" Stretch="None" RenderTransformOrigin="-4.429,5.5" Grid.Column="1"/>
+                                <Label Content="8 mm" HorizontalAlignment="Left" Margin="446,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.475,0.5" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="491,129,0,0" VerticalAlignment="Top" Source="Images/8.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="9 mm" HorizontalAlignment="Left" Margin="446,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.3,3.808" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="491,228,0,0" VerticalAlignment="Top" Source="Images/9.png" Stretch="None" RenderTransformOrigin="0.882,0.5" Grid.Column="1"/>
+                                <Label Content="10 mm" HorizontalAlignment="Left" Margin="439,344,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="491,325,0,0" VerticalAlignment="Top" Source="Images/10.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="12.75 mm" HorizontalAlignment="Left" Margin="653,58,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="720,28,0,0" VerticalAlignment="Top" Source="Images/12.75.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="15 mm" HorizontalAlignment="Left" Margin="668,153,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="720,129,0,0" VerticalAlignment="Top" Source="Images/15.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="19 mm" HorizontalAlignment="Left" Margin="668,260,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.681,1.346" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="720,325,0,0" VerticalAlignment="Top" Source="Images/19.png" Stretch="None" Grid.Column="1"/>
+                                <Label Content="25 mm" HorizontalAlignment="Left" Margin="668,357,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                                <Image HorizontalAlignment="Left" Margin="720,228,0,0" VerticalAlignment="Top" Source="Images/25.png" Stretch="None" Grid.Column="1"/>
+                                <TextBox HorizontalAlignment="Left" Height="89" Margin="824,28,0,0" TextWrapping="Wrap" Text="Hold your hook up to the screen. Find the square with the closest size to the hooks's width without being too large. That is the gauge of your hook!" VerticalAlignment="Top" Width="201" Background="{x:Null}" Grid.Column="1"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
